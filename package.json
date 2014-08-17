@@ -1,0 +1,30 @@
+{
+  "name": "oops.js",
+  "version": "0.0.0",
+  "description": "oops for NodeJS",
+  "keywords": [
+    "error",
+    "oops",
+    "page"
+  ],
+  "author": "Daniel St. Jules <danielst.jules@gmail.com>",
+  "licenses": [
+    "MIT"
+  ],
+  "homepage": "https://github.com/danielstjules/oops.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielstjules/oops.js.git"
+  },
+  "dependencies": {
+    "bluebird": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "mock-fs": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive -R spec spec"
+  }
+}
