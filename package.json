@@ -1,16 +1,19 @@
 {
   "name": "oops.js",
   "version": "0.0.0",
-  "description": "oops for NodeJS",
+  "description": "Better error pages",
   "keywords": [
     "error",
     "oops",
+    "stack",
+    "exception",
     "page"
   ],
   "author": "Daniel St. Jules <danielst.jules@gmail.com>",
   "licenses": [
     "MIT"
   ],
+  "main": "lib/oops.js",
   "homepage": "https://github.com/danielstjules/oops.js",
   "repository": {
     "type": "git",
