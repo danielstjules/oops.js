@@ -26,7 +26,7 @@ Koa middleware:
 Basic development setup:
 
 ```
-var oops = require('oops.js')();
+var oops = require('oops.js');
 
 if (app.settings.env === 'development') {
   app.use(oops.express);
