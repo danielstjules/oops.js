@@ -1,4 +1,4 @@
-# oops.js
+![oops.js](http://danielstjules.com/github/oops-logo.png)
 
 Better error pages for Node.js. A collection of middleware for better error
 handling and reporting with Express 3/4 and Koa. Also compatible with other
